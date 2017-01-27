@@ -7,7 +7,7 @@ public interface Parking {
 	
 	public TreeSet<Integer> getAvailableSlots();
 	
-	public Map<Integer, car> getParkedCarMap();
+	public Map<Integer, Car> getParkedCarMap();
 	
 	public void createParkingWithSizeOf(String size);
 	

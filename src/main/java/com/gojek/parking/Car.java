@@ -1,11 +1,11 @@
 package com.gojek.parking;
 
-public class car {
+public class Car {
 	
 	private String colour;
 	private String number;
 	
-	car(String colour,String number){
+	Car(String colour,String number){
 		this.colour = colour;
 		this.number = number;
 		}
